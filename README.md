@@ -9,15 +9,30 @@ This repo contains my work-in-progress final project for the Code Louisville pro
 
 <h3>Include a README file (or add to your project plan) the following items:</h3>
 <ul>
-    <li>What question are you answering or problem are you analyzing?
+    <li><b>What question are you answering or problem are you analyzing?</b>
         <ul>
             <li>How does a queen's performance in their main season of RuPaul's Drag Race relate to their performance in All Stars? </li>
             <li>Did the queens who won <i>actually</i> perform the best? If not, who are the <i>real</i> winningest queens of all time?</li>
         </ul>
     </li>
-    <li>A brief overview of how you accomplished this, including any necessary background for someone to understand the problem, where your data came from, what you used from that data, any analysis you applied to the data, and what you chose to visualize/display/report in the final product</li>
-    <li>A glossary of any terms your project uses that may not be known to a reviewer - if your project topic uses specialized terminology, formulas, or other info that someone may not know, you should describe it in your README</li>
-    <li>Any special requirements, dependencies, or steps to run the project</li>
+    <li><b>A brief overview of how you accomplished this, including any necessary background for someone to understand the problem, where your data came from, what you used from that data, any analysis you applied to the data, and what you chose to visualize/display/report in the final product</b>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </li>
+    <li><b>A glossary of any terms your project uses that may not be known to a reviewer - if your project topic uses specialized terminology, formulas, or other info that someone may not know, you should describe it in your README</b>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </li>
+    <li><b>Any special requirements, dependencies, or steps to run the project</b>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </li>
 </ul>
 
 
