@@ -22,11 +22,12 @@ def check_dependency_prompt(dependency_list):
         print("Great! Let's get started", end='')
         five_dots(1)
         check_dependencies(dependency_list)
-#         clear_output()
         
     elif yn.lower() == 'no':
         clear_output()
         print("Okay! I won't check dependencies right now.")
+        
+    yn = ''
         
         
 def check_dependencies(list_of_dependencies):
