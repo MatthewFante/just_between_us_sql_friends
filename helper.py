@@ -2,39 +2,45 @@ from time import sleep
 from IPython.display import clear_output, Image
 import sys
 
-def five_dots(sec):
+def loading_dots(time):
     elipsis = '.....'
     for dot in elipsis:
-        sleep(sec/len(elipsis))
+        sleep(time/len(elipsis))
         print(dot, end = '')
+    clear_output()
         
 def check_dependencies(dependency_list):
     ready = 0
     missing = []
+    
     for library in dependency_list:
-        clear_output()
         print('Checking ' + library, end = '')
-        five_dots(.5)
-        clear_output()
-        
+        loading_dots(.5)
+
         if library in sys.modules:
-            ready += 1
-        elif library not in sys.modules:
+            ready += 1    
+        else:
             missing.append(library)
+
     if ready == len(dependency_list):
-        print("All dependencies are ready... Enjoy!")
+        print("All dependencies are fulfilled... Enjoy!")
     else: 
-        
-  
         print("The following libraries are missing:")
         for library in missing:
             print('- ', library)
-            
-        print("\nBefore proceeding, please run the INSTALL/UPDATE DEPENDENCIES cell\n\tat the bottom of this notebook.")
-        
-def csv_export(df, file_name):
-    df.to_csv(file_name, index=True)
+        print("\nBefore proceeding, please run the necessary INSTALL/UPDATE DEPENDENCIES cells\n\tat the bottom of this notebook.")
+       
     
+    
+    
+    
+    
+    
+    
+    
+        
+# def csv_export(df, file_name):
+#     df.to_csv(file_name, index=True)
     
 # def xls_export(df, file_name, sheet_name):
 #     df.to_excel(file_name, sheet_name=sheet_name)
