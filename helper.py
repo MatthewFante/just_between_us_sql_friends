@@ -10,6 +10,7 @@ def five_dots(sec):
         
 def check_dependencies(dependency_list):
     ready = 0
+    missing = []
     for library in dependency_list:
         clear_output()
         print('Checking ' + library, end = '')
@@ -19,12 +20,17 @@ def check_dependencies(dependency_list):
         if library in sys.modules:
             ready += 1
         elif library not in sys.modules:
-            pass
+            missing.append(library)
     if ready == len(dependency_list):
         print("All dependencies are ready... Enjoy!")
     else: 
-        print("Some dependencies are missing... Please run the INSTALL/UPDATE DEPENDENCIES cell at the bottom of this notebook before proceeding!")
-
+        
+  
+        print("The following libraries are missing:")
+        for library in missing:
+            print('- ', library)
+            
+        print("\nBefore proceeding, please run the INSTALL/UPDATE DEPENDENCIES cell\n\tat the bottom of this notebook.")
         
 def csv_export(df, file_name):
     df.to_csv(file_name, index=True)

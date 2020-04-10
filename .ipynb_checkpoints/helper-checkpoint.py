@@ -1,58 +1,61 @@
 from time import sleep
+from IPython.display import clear_output, Image
 import sys
 
-
-def check_dependencies(dependencies):
-    yn = ''
-    print("Greetings! I can help you install or update the dependencies for this notebook!")
-
-    while yn.lower() not in ['yes', 'no']:
-        clear_output()
-        yn = input("Do you want to check dependencies for updates? ")
-
-
-    if yn.lower() == 'yes':
-        print("Great! Let's get started!")
-        for package in dependencies:
-            delayed_install(package)
-
-
-    elif yn.lower() == 'no':
-        clear_output()
-        print("Okay, trying to import dependencies", end='')
-        dot_dot_dot()
-            
-            
-def delayed_install(package):
-    sleep(1)
-    clear_output()
-    print("Checking" + package)
-    !conda install --yes --prefix {sys.prefix} package
-    
-
-def get_image_urls(data_set):
-    images = []
-    for i in range(len(data_set['image_url'])):
-        images.append(Image(url = data_set['image_url'][i], width = 50))
-        i += 1
-    return images
-
-
-def display_images(images):
-    for image in images:
-        display(image)
+def five_dots(sec):
+    elipsis = '.....'
+    for dot in elipsis:
+        sleep(sec/len(elipsis))
+        print(dot, end = '')
         
+def check_dependencies(dependency_list):
+    ready = 0
+    missing = []
+    for library in dependency_list:
+        clear_output()
+        print('Checking ' + library, end = '')
+        five_dots(.5)
+        clear_output()
+        
+        if library in sys.modules:
+            ready += 1
+        elif library not in sys.modules:
+            missing.append(library)
+    if ready == len(dependency_list):
+        print("All dependencies are ready... Enjoy!")
+    else: 
+        
+  
+        print("The following libraries are missing:")
+        for library in missing:
+            print('- ', library)
+            
+        print("\nBefore proceeding, please run the INSTALL/UPDATE DEPENDENCIES cell\n\tat the bottom of this notebook.")
         
 def csv_export(df, file_name):
     df.to_csv(file_name, index=True)
     
     
-def xls_export(df, file_name, sheet_name):
-    df.to_excel(file_name, sheet_name=sheet_name)
+# def xls_export(df, file_name, sheet_name):
+#     df.to_excel(file_name, sheet_name=sheet_name)
     
-def dot_dot_dot(time):
-    elipsis = '.....'
-    for period in elipsis:
-        sleep(time / len(elipsis))
-        print(period, end='')
-    
+        
+# This could come in handy for a nice clean excel export once everything is said and done.
+# df2 = df1.copy()
+# with pd.ExcelWriter('output.xlsx') as writer:  
+# df1.to_excel(writer, sheet_name='Sheet_name_1')
+# df2.to_excel(writer, sheet_name='Sheet_name_2')
+
+# df.to_excel("output.xlsx", sheet_name='Sheet_name_1')  
+
+ 
+
+# def xls_export(list_of_dfs, file_name):
+#     with pd.ExcelWriter(file_name) as writer:  
+#         i = 0
+#         for dataframe in list_of_dfs:
+#             dataframe.to_excel(writer, sheet_name="sheet")
+#             i +=1
+# list_of_dfs = [main_seasons_df, all_stars_df]
+
+# xls_export(list_of_dfs, 'output.xlsx')
