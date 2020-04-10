@@ -5,10 +5,6 @@ This repo contains my work-in-progress final project for the Code Louisville pro
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MatthewFante/just_between_us_sql_friends/master?filepath=just_between_us_sql_friends.ipynb)
 
-
-[![nbviewer](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MatthewFante/just_between_us_sql_friends/master?filepath=just_between_us_sql_friends.ipynb)
-
-
 <h3>Include a README file (or add to your project plan) the following items:</h3>
 <ul>
     <li><b>What question are you answering or problem are you analyzing?</b>
