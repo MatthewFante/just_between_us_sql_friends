@@ -36,7 +36,8 @@
                     <li>bokeh</li>
                 </ul>
             </li>
-            <li>I've included some additional non-project specific functions in <i>helper.py</i>.</li>
+            <li>In most cases, the required libraries can be installed from inside the project. 
+            <li>I've included some additional non-project specific functions in <i>helper.py</i> to make checking and installing dependencies a little easier.</li>
         </ul>
     </li>
 </ul>
