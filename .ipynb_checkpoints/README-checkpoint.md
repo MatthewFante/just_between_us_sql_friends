@@ -2,7 +2,7 @@
 <h1>Just Between Us SQL Friends</h1>
 <b>Rupaul's Drag Race: Analyzed</b>
 
-<li>This repo contains my final project for the Code Louisville program. A practical exploration Python for data science, including: Pandas data structures, SQL Database manipulation, and data visualization using MatPlotLib and Bokeh</li>
+<p>This repo contains my final project for the Code Louisville program. A practical exploration Python for data science, including: Pandas data structures, SQL Database manipulation, and data visualization using MatPlotLib and Bokeh</p>
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MatthewFante/just_between_us_sql_friends/master?filepath=just_between_us_sql_friends.ipynb)
 
@@ -11,7 +11,6 @@
 <ul>
     <li><b>What question are you answering or problem are you analyzing?</b>
         <ul>
-
             <li>How does a queen's performance in their main season of RuPaul's Drag Race relate to their performance in All Stars? </li>
             <li>Did the queens who won <i>actually</i> perform the best? If not, who are the <i>real</i> winningest queens of all time?</li>
         </ul>
