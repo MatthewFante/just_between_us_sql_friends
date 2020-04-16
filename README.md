@@ -24,19 +24,24 @@
     <li><b>A glossary of any terms your project uses that may not be known to a reviewer - if your project topic uses specialized terminology, formulas, or other info that someone may not know, you should describe it in your README</b>
         <ul>
             <li></li>
-            <li></li>
         </ul>
     </li>
     <li><b>Any special requirements, dependencies, or steps to run the project</b>
         <ul>
-            <li></li>
-            <li></li>
+            <li>This project can be viewed in your favorite Jupyter Notebook environment (I used JupyterLab).</li>
+            <li>The following libraries are required:
+                <ul>
+                    <li>pandas</li>
+                    <li>matplotlib</li>
+                    <li>bokeh</li>
+                </ul>
+            </li>
+            <li>I've included some additional non-project specific functions in <i>helper.py</i>.</li>
         </ul>
     </li>
 </ul>
 
- [![WHAT IS RUPAUL'S DRAG RACE?](https://img.youtube.com/vi/8jf5IU7GmuI/0.jpg)](https://www.youtube.com/watch?v=8jf5IU7GmuI)
-
+ 
 
 <h2 style="color:deeppink">Project Requirements</h2>
 
