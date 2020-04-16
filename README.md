@@ -15,7 +15,7 @@ This repo contains my work-in-progress final project for the Code Louisville pro
     </li>
     <li><b>A brief overview of how you accomplished this, including any necessary background for someone to understand the problem, where your data came from, what you used from that data, any analysis you applied to the data, and what you chose to visualize/display/report in the final product</b>
         <ul>
-            <li></li>
+            <li>The data in this projects is provided courtesy of NoKeyNoShade.party, the Internet's Premier Competitive Female Impersonation Data API.</li>
             <li></li>
         </ul>
     </li>

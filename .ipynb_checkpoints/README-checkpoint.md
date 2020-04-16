@@ -5,10 +5,6 @@ This repo contains my work-in-progress final project for the Code Louisville pro
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MatthewFante/just_between_us_sql_friends/master?filepath=just_between_us_sql_friends.ipynb)
 
-
-[![nbviewer](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MatthewFante/just_between_us_sql_friends/master?filepath=just_between_us_sql_friends.ipynb)
-
-
 <h3>Include a README file (or add to your project plan) the following items:</h3>
 <ul>
     <li><b>What question are you answering or problem are you analyzing?</b>
@@ -19,7 +15,7 @@ This repo contains my work-in-progress final project for the Code Louisville pro
     </li>
     <li><b>A brief overview of how you accomplished this, including any necessary background for someone to understand the problem, where your data came from, what you used from that data, any analysis you applied to the data, and what you chose to visualize/display/report in the final product</b>
         <ul>
-            <li></li>
+            <li>The data in this projects is provided courtesy of NoKeyNoShade.party, the Internet's Premier Competitive Female Impersonation Data API.</li>
             <li></li>
         </ul>
     </li>
