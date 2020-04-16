@@ -23,6 +23,7 @@
     </li>
     <li><b>A glossary of any terms your project uses that may not be known to a reviewer - if your project topic uses specialized terminology, formulas, or other info that someone may not know, you should describe it in your README</b>
         <ul>
+            [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8jf5IU7GmuI/0.jpg)](https://www.youtube.com/watch?v=8jf5IU7GmuI)
             <li></li>
             <li></li>
         </ul>
