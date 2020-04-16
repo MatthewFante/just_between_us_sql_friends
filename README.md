@@ -62,9 +62,6 @@
             <li>miss_congeniality - bool</li>
             <li>winner - bool</li>
         </ul>
-        
-        
-
     </li>
     <li>
         <h3 style="color:deeppink">main_seasons_df</h3>  
