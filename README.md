@@ -35,7 +35,7 @@
     </li>
 </ul>
 
- [![WHAT IS RUPAUL'S DRAG RACE?](https://img.youtube.com/vi/8jf5IU7GmuI/10.jpg)](https://www.youtube.com/watch?v=8jf5IU7GmuI)
+ [![WHAT IS RUPAUL'S DRAG RACE?](https://img.youtube.com/vi/8jf5IU7GmuI/0.jpg)](https://www.youtube.com/watch?v=8jf5IU7GmuI)
 
 
 <h2 style="color:deeppink">Project Requirements</h2>
