@@ -23,6 +23,10 @@
         </ul>
     </li>
     <li><b>A glossary of any terms your project uses that may not be known to a reviewer - if your project topic uses specialized terminology, formulas, or other info that someone may not know, you should describe it in your README</b>
+        <ul>
+            <li>No special terminology is needed to understand the development side of things.</li>
+            <li>For the uninitiated, a glossary of Drag Queen lingo can be found <a href="https://rupaulsdragrace.fandom.com/wiki/RuPaul%27s_Drag_Race_Dictionary">here</a>.</li>
+        </ul>
     </li>
     <li><b>Any special requirements, dependencies, or steps to run the project</b>
         <ul>
