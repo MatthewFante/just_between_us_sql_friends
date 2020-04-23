@@ -22,9 +22,6 @@
         </ul>
     </li>
     <li><b>A glossary of any terms your project uses that may not be known to a reviewer - if your project topic uses specialized terminology, formulas, or other info that someone may not know, you should describe it in your README</b>
-        <ul>
-            <li></li>
-        </ul>
     </li>
     <li><b>Any special requirements, dependencies, or steps to run the project</b>
         <ul>
