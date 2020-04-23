@@ -17,7 +17,9 @@
     </li>
     <li><b>A brief overview of how you accomplished this, including any necessary background for someone to understand the problem, where your data came from, what you used from that data, any analysis you applied to the data, and what you chose to visualize/display/report in the final product</b>
         <ul>
-            <li>The data in this projects is provided courtesy of NoKeyNoShade.party, the Internet's Premier Competitive Female Impersonation Data API.</li>
+            <li>The data in this project is provided courtesy of NoKeyNoShade.party, the Internet's Premier Competitive Female Impersonation Data API.</li>
+            <li>Data manpulation is done using the pandas and sqlite3 libraries.</li>
+            <li>Data visualization is done using the matplotlit and bokeh libraries.</li>
         </ul>
     </li>
     <li><b>A glossary of any terms your project uses that may not be known to a reviewer - if your project topic uses specialized terminology, formulas, or other info that someone may not know, you should describe it in your README</b>
