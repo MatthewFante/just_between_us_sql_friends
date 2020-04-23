@@ -2,7 +2,7 @@
 <h1>Just Between Us SQL Friends</h1>
 <b>Rupaul's Drag Race: Analyzed</b>
 
-<img src="media/logo.jpg" />
+<img src="media/logo.png" />
 
 <p>This repo contains my final project for the Code Louisville program. A practical of exploration Python for data science, including: Pandas data structures, SQL Database manipulation, and data visualization using MatPlotLib and Bokeh.</p>
 
