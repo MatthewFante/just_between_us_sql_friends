@@ -2,6 +2,8 @@
 <h1>Just Between Us SQL Friends</h1>
 <b>Rupaul's Drag Race: Analyzed</b>
 
+<img src="media/logo.jpg" />
+
 <p>This repo contains my final project for the Code Louisville program. A practical of exploration Python for data science, including: Pandas data structures, SQL Database manipulation, and data visualization using MatPlotLib and Bokeh.</p>
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MatthewFante/just_between_us_sql_friends/master?filepath=just_between_us_sql_friends.ipynb)
